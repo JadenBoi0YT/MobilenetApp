@@ -1,0 +1,78 @@
+body{
+    font-family: 'Special Elite', cursive;
+    background: lightpink;
+}
+
+.header_div{
+    background: mediumaquamarine;
+    color:navy;
+}
+
+.header_div img{
+    width:115px;
+    box-shadow: 5px 10px 30px blue;
+}
+
+.main_div{
+    background: palevioletred;
+    padding: 10px;
+    margin-top: 15px;
+    border:3px solid white;
+    border-left: brown solid 5px;
+}
+
+.main_div label{
+    background: white;
+    width:310px;
+    padding:10px;
+    margin-bottom: 0px;
+    box-shadow: 5px 5px 18px crimson inset, 5px 5px 18px 5px crimson;
+    border-left: brown;
+}
+
+#camera #result{
+    border:solid 2px white;
+    width:310px;
+    height:300px;
+    box-shadow: 5px 5px 18px floralwhite;
+}
+.btn{
+    box-shadow: 5px 8px 15px coral;
+}
+
+.btn:hover{
+    animation: ButtonParty 5s infinite;
+}
+
+@keyframes ButtonParty{
+    0%{box-shadow: 5px 8px 15px coral;}
+    25%{box-shadow: 5px 8px 15px black;}
+    50%{box-shadow: 5px 8px 15px blue;}
+    75%{box-shadow: 5px 8px 15px red;}
+    100%{box-shadow: 5px 8px 15px coral;}
+}
+
+.footer_div{
+    margin-bottom: 50px;
+}
+
+.footer_div h4{
+    background: white;
+    border-radius: 10px;
+    padding:5px;
+    box-shadow:5px 5px 18px blue;
+}
+
+.footer_div img{
+    width:70px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color:brown;
+    bottom: 0;
+    width:100%;
+    background-color: yellowgreen;
+    line-height: 3;
+    text-align:center;
+}
